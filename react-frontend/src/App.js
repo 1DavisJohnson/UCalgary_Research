@@ -1,9 +1,10 @@
-
+import "./pages/loginPage/LoginPage";
+import LoginPage from "./pages/loginPage/LoginPage";
 
 function App() {
   return (
     <div className="App">
-      University of Calgary - Research
+      <LoginPage />
     </div>
   );
 }

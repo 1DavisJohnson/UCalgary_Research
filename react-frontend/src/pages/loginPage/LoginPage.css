@@ -1,0 +1,35 @@
+.initialFrame {
+  width: 1152px;
+  height: 700px;
+  background-color: #fabd0c;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 50px;
+}
+.rightFrame {
+  width: 730px;
+  height: 700px;
+  background-color: white;
+  border-radius: 36px 0px 0px 36px;
+  float: right;
+}
+.image-stack-loginPage {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+}
+.image-with-book {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  padding-top: 20%;
+}
+.image-with-horn {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+.image-stack {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(6, 1fr);
+}
