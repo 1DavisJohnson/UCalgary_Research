@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+
+}
+body{
+    /* border: yellow solid;
+    height: 80%; */
+}
+.left-sidebar{
+    margin: 2rem;
+    height:600px;
+    width: 12%;
+    border: rgb(245, 245, 239) solid;
+    background-color: #fbfbff;
+   
+    border-radius: 2rem;
+    
+
+}
+.menu-profile{
+    display: flex;
+   
+    /* border: rgb(245, 245, 239) solid; */
+    
+    border-radius: 2rem;
+    height:150px
+    
+    
+}
+
+.menu-profile .picture{
+    margin-top: 10px;
+    border: black solid;
+    border-radius: 50%;
+    width:60% ;
+}
+.menu-profile .name{
+    align-self: center;
+    margin-left: 10px;
+    font-family: Rubik;
+    
+}
+.left-menu{
+    
+    margin: 30px;
+    list-style: none;
+    display: grid;
+    grid-template-rows: repeat(6,20px);
+    /* flex-direction: column; */
+    gap: 2rem;
+    /* border: brown solid; */
+    height:300px;
+}
+
+.left-menu .nav-links{
+    /* border: red solid; */
+}
+

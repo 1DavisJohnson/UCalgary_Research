@@ -1,7 +1,9 @@
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Info from "./components/Information/Info";
-
+import Search from "./components/Search/Search";
+import LeftSidebar from "./components/LeftSidebar/LeftSidebar";
+import Jobs from "./components/Jobs/Jobs";
 // Style sheet
 <link
   rel="stylesheet"
@@ -12,7 +14,11 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Info />
+      <Info/>
+      {/* <Search/>
+      <LeftSidebar/>
+      {/* <Jobs/> */}
+       */}
     </div>
   );
 }
